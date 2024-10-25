@@ -1,4 +1,4 @@
-# A simple python programm that parses all your messages from telegram and prints 15 least and most common of them.
+# A simple python programm that parses all your messages from telegram and prints required number of least and most common of them.
 
 
 ## Setup Instructions
