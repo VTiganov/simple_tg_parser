@@ -3,10 +3,6 @@ from collections import Counter
 import re
 import os
 
-# Setting up environment paths if necessary for your system
-os.environ['TCL_LIBRARY'] = r'C:\Users\Admin\AppData\Local\Programs\Python\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Users\Admin\AppData\Local\Programs\Python\Python313\tcl\tk8.6'
-
 
 def load_data(file_path='all_messages.csv'):
     """Loads data from CSV file and groups it by chat name."""
