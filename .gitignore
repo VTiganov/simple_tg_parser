@@ -1,0 +1,7 @@
+/.env
+/session_name.session
+/venv
+/.pytest_cache
+/requirements.txt
+/all_messages.csv
+/session_name.session-journal
