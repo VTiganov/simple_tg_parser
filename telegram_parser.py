@@ -22,7 +22,7 @@ async def save_messages_to_csv(excluded_chats=None):
     
     # Default chats to exclude if none provided
     if excluded_chats is None:
-        excluded_chats = ["AI котята", "Евгений Понасенков"]
+        excluded_chats = []
     
     # Get the user's ID to filter messages sent by the user
     me = await client.get_me()
